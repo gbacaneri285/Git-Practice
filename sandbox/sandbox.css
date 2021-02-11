@@ -1,0 +1,19 @@
+body{
+    Background-color:darkblue;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    background-color: aquamarine;
+    color: black
+}
+table {
+    width: 60%
+}
+
+th {
+    height: 30px
+}
+td:first-child{
+    background-color:pink 
+}

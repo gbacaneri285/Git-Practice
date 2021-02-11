@@ -1,0 +1,14 @@
+0 -> b0
+1 -> b1
+....
+9 -> b9
+
++ -> Qadd
+- -> Qsubtract
+* -> Qmultiply
+/ -> Qdivide
+C -> $clear
+= -> Zequals
+
+display -> display
+x,y,operator
