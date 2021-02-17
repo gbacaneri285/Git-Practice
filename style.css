@@ -5,28 +5,35 @@ button{
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-    outline-color:orangered;
-    color: royalblue;
+    color: maroon;
+    transition: .3s all;
+}
+
+button:hover {
+    background-color:lightsteelblue;
 }
 
 table {
-    width: 80%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
 }
 
 table,th,td{
-    border: 2px solid black;
+    border: 3px solid black;
     margin:auto;
     border-collapse: collapse;
 }
 
 th {
-    background-color:aquamarine;
+    background-color:red;
     text-align: center;
 }
 
 body {
-    background-color: lightgoldenrodyellow;
+    background-image: url(https://static.wikia.nocookie.net/megamitensei/images/d/de/Mementos_Dungeon_Art_P5.png/revision/latest/scale-to-width-down/1000?cb=20200516152830);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 105%;
 }
 
 .x{
@@ -42,10 +49,14 @@ body {
     color:pink;
 }
 #display{
-    width:80%;
+    width:50%;
     height:50%;
     margin:auto;
     background-color: slategrey;
     font-size: xx-large;
     text-align: center;
+    color: maroon;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-shadow: 1px 1px;
 }
